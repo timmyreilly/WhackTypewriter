@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Typewriter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="typewriter.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div>
+      hi
+    </div>
+    <div class="paper">
+      <pre class="typing">
+      </pre>
+      <div class="letter">
+      </div>
+    </div>
+    <script type="text/javascript">
+      var $paper = $('.typing');
+      new Typewriter.Paper({$paper: $paper}).start();
+    </script>
+  </body>
+</html>

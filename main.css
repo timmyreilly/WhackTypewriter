@@ -1,0 +1,27 @@
+h1 {
+
+}
+
+div.paper {
+  height: 50vh;
+  max-width: 50%;
+  width: 50%;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
+
+pre.typing {
+  text-align: right;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+div.letter {
+  text-align: right;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
